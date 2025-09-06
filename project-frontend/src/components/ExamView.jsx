@@ -18,7 +18,7 @@ const ExamView = () => {
         const fetchExam = async () => {
             try {
                 setLoading(true);  // Set loading true when fetching starts
-                setError(null);    // Clear any previous error
+                setError(null);    
                 await dispatch(getExamById(id));
             } catch (err) {
                 setError('Failed to load exam details.');
