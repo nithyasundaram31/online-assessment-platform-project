@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { FaRegSadCry } from 'react-icons/fa'; // 
+import { FaRegSadCry } from 'react-icons/fa'; 
 
 const ErrorPage = () => {
     const navigate = useNavigate();
