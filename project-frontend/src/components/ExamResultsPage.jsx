@@ -105,7 +105,9 @@ const ExamResultsPage = ({ recentSubmissions, isLoading }) => {
                 );
             })}
         </div>
-    );
+   
+
+);
 };
 
 
